@@ -1,64 +1,117 @@
-# Package Delivery Performance Analysis
+Package Delivery Analysis
 
-## 📦 Deskripsi
-Analisis performa pengiriman paket untuk memahami faktor-faktor yang mempengaruhi 
-kecepatan dan ketepatan waktu pengiriman. Project ini mengeksplorasi data pengiriman 
-dengan fokus pada pattern, trend, dan insight bisnis yang actionable.
+# 📦 Courier Salary & Package Delivery Analysis
+
+## 📖 Project Overview
+
+This project analyzes my personal package delivery data as a freelance courier in the **Sumber** area from **26 June 2026 to 7 July 2026**.
+
+The purpose of this project is to practice Data Analysis using Python while gaining insights into daily delivery performance, revenue, salary, and cash advances.
+
+---
+
+## 🎯 Objectives
+
+- Analyze daily package deliveries.
+- Calculate daily and total revenue.
+- Monitor cash advances (salary deductions).
+- Calculate net salary.
+- Visualize delivery trends over time.
+
+---
 
 ## 📊 Dataset
-- **Sumber**: [Tentukan sumber dataset Anda]
-- **Jumlah Data**: [Akan diisi setelah EDA]
-- **Format**: CSV / Excel
-- **Variabel**: Meliputi informasi pengiriman (tanggal, lokasi, status, durasi, dll)
 
-## 🛠️ Tools yang Digunakan
-- **Python 3.x**
-- **Pandas** - Data manipulation & cleaning
-- **Matplotlib & Seaborn** - Data visualization
-- **NumPy** - Numerical computation
-- **Google Colab** - Development environment
+The dataset was created from my own delivery records.
 
-## 🔍 Pertanyaan Penelitian
-- Berapa rata-rata durasi pengiriman?
-- Lokasi/rute mana yang paling efisien?
-- Faktor apa yang memperlambat pengiriman?
-- Adakah pattern seasonal dalam pengiriman?
-- Berapa persentase pengiriman tepat waktu?
+| Column | Description |
+|---------|-------------|
+| Date | Delivery date |
+| Delivered | Number of delivered packages |
+| Revenue | Daily revenue |
+| Cash Advance | Salary advance taken |
+| Net Salary | Final salary after deductions |
 
-## 💡 Key Insights (Akan Diupdate)
-- Insight 1: [Ditemukan selama analisis]
-- Insight 2: [Ditemukan selama analisis]
-- Insight 3: [Ditemukan selama analisis]
+Period:
+- **26 June 2026 - 7 July 2026**
 
-## 📈 Visualisasi Utama
-- Distribusi durasi pengiriman
-- Performance berdasarkan lokasi/rute
-- Trend pengiriman over time
-- Faktor-faktor yang mempengaruhi keterlambatan
+Area:
+- **Sumber**
 
-## 📝 Struktur Folder
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Google Colab
+
+---
+
+## 📈 Analysis Performed
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Daily delivery trend
+- Revenue calculation
+- Salary calculation
+- Cash Advance analysis
+
+---
+
+## 📊 Visualizations
+
+The project includes visualizations such as:
+
+- Daily package deliveries
+- Daily revenue
+- Net salary trend
+
+More visualizations will be added as the dataset grows.
+
+---
+
+## 💡 Current Findings
+
+- Daily package deliveries vary throughout the week.
+- Revenue depends directly on the number of delivered packages.
+- Cash advances reduce the final salary received.
+- Tracking data digitally makes salary calculation more accurate than manual calculations.
+
+---
+
+## 📂 Project Structure
+
 ```
 my-first-ds-project/
-├── README.md                 # File ini
-├── data/                     # Dataset
-│   └── delivery_data.csv     # Data pengiriman
-├── notebooks/                # Jupyter Notebooks
-│   └── analysis.ipynb        # Main analysis
-└── results/                  # Output analysis
-    └── visualizations/       # Grafik & chart
+│
+├── README.md
+├── delivery-data.csv
+└── analysis.ipynb
 ```
 
-## 🚀 Cara Menggunakan
-1. Buka notebook di Google Colab
-2. Upload dataset delivery Anda
-3. Run cell by cell untuk melihat analisis
-4. Lihat insights dan visualisasi yang dihasilkan
+---
 
-## 📌 Status Project
-🔄 **In Progress** - Sedang mengerjakan EDA dan exploratory analysis
+## 🚀 Future Improvements
 
-## 👤 Author
-RayJK23
+- Collect more delivery data.
+- Create an interactive dashboard.
+- Predict future package deliveries using Machine Learning.
+- Develop a Payroll Management System for couriers.
 
-## 📅 Terakhir Diupdate
-[Tanggal hari ini]
+---
+
+## 👨‍💻 Author
+
+**RayJK23**
+
+GitHub:
+https://github.com/RayJK23
+
+---
+
+## ⭐ Notes
+
+This project uses real delivery data collected from my freelance courier work for learning purposes. Personal or customer information has been removed to protect privacy.
